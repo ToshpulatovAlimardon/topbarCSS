@@ -337,10 +337,11 @@ body {
   box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
 }
 
-/* Topbar - Telegram */
+/* Topbar - Telegram */ 
 .topbar-custom {
   background-color: #0088cc; /* Telegramning asosiy rangi */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
 }
 
 .topbar-container {
@@ -411,4 +412,40 @@ body {
 
 .profile-icon:hover {
   border-color: #ffcc00; /* Hover paytida chegarani o'zgartirish */
+}
+
+/* Topbar 6 */
+.topbar6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background-color: blue;
+  height: 70px; 
+  margin-bottom: 30px;
+}
+.topbar6 .topbar-logo {
+  height: 50px;
+}
+.topbar6 .topbar-logo img {
+  height: 100%;
+  filter: brightness(200%);
+}
+
+.topbar6 .navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  text-transform: capitalize;  
+}
+
+.topbar6 .topbar-language select {
+  padding: 8px 10px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(53, 53, 255);
+  border: none;
+  box-shadow: 0 0 10px 5px rgb(98, 98, 255);
+  color: #fff;
+  margin-right: 30px;
 }
