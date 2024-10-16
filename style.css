@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.topbar1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 55px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.topbar1 .logo {
+  height: 30px;
+}
+
+.topbar1 .logo img {
+  height: 100%;
+}
+
+.topbar1 .search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.topbar1 .search-bar input {
+  width: 100%;
+  max-width: 600px;
+  padding: 8px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.topbar1 .icons {
+  display: flex;
+  align-items: center;
+}
+
+.topbar1 .icon {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: .3s;
+  font-weight: 600;
+}
+
+.topbar1 .icon:hover {
+  background-color: #f1f3f4d0;
+}
+
+.topbar1 .icon:last-child {
+  width: 35px;
+  height: 35px;
+  background-color: #4285f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.topbar1 .icon img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.topbar1 .icon:last-child:hover {
+  box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
+}
+
+/* Topbar 2 */
+.topbar2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 60px;
+  background-color: #4267b2;
+  color: #fff;
+  border-bottom: 1px solid #6498ff;
+  box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.topbar2 .logo img {
+  height: 50px;
+}
+
+.topbar2 .search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  position: relative;
+}
+
+.topbar2 .search-bar input {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.topbar2 .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.topbar2 .nav-link {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.topbar2 .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+}
+
+.topbar2 .profile-icon {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  color: #4267b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 0;
+  border: 2px solid #fff;
+  transition: 0.3s;
+}
+
+.topbar2 .nav-link img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.topbar2 .profile-icon:hover {
+  border-color: gold;
+  box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
+}
+
+/* Topbar - YouTube Style */
+.topbar-youtube {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 60px;
+  background-color: #FF0000;
+  color: #fff;
+  border-bottom: 1px solid #cc0000;
+  box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.topbar-youtube .logo {
+  height: 35px;
+}
+
+.topbar-youtube .logo img {
+  height: 100%;
+}
+
+.topbar-youtube .search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+  position: relative;
+}
+
+.topbar-youtube .search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.topbar-youtube .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-youtube .nav-link {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.topbar-youtube .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.392);
+  color: black;
+}
+
+.topbar-youtube .profile-icon {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 0;
+  transition: 0.3s;
+  border: 2px solid #fff;
+  overflow: hidden;
+}
+
+.topbar-youtube .nav-link img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.topbar-youtube .profile-icon:hover {
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
+}
+
+/* Topbar - Instagram Style */
+.topbar-instagram {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  height: 60px;
+  background: orangered;
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.topbar-instagram .logo {
+  height: 50px;
+}
+
+.topbar-instagram .logo img {
+  height: 100%;
+}
+
+.topbar-instagram .search-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.topbar-instagram .search-bar input {
+  width: 100%;
+  max-width: 250px;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.9); /* Yengil oq fon */
+  border: 1px solid #dbdbdb;
+  border-radius: 30px;
+  font-size: 14px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.topbar-instagram .search-bar input:focus {
+  background-color: #ffffff; /* Qidiruv maydoni faollashganda */
+}
+
+.topbar-instagram .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-instagram .nav-link {
+  margin-left: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Oq rang */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.topbar-instagram .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Tugma ustiga kelganda oq rang */
+  color: #000; /* Matn rangi o'zgaradi */
+}
+
+.topbar-instagram .profile-icon {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 20px;
+  border: 2px solid #fff; /* Oq rangli chegarani yaratish */
+  transition: border-color 0.3s;
+  padding: 0;
+}
+
+.topbar-instagram .profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.topbar-instagram .profile-icon:hover {
+  border-color: #ffcc00; /* Hover paytida chegarani o'zgartirish */
+  box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
+}
+
+/* Topbar - Telegram */
+.topbar-custom {
+  background-color: #0088cc; /* Telegramning asosiy rangi */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+.topbar-custom .logo img {
+  height: 50px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 25px;
+  color: #ffffff; /* Oq rang */
+  font-size: 16px;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Tugma ustiga kelganda */
+}
+
+.new-message-btn {
+  background-color: #ffffff; /* Tugma fon rangi */
+  color: #0088cc; /* Tugma matni rangi */
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+}
+
+.new-message-btn:hover {
+  background-color: rgba(0, 47, 70, 0.685); /* Tugma ustiga kelganda */
+  color: #fff;
+  box-shadow: 0 0 10px aqua;
+}
+
+.profile-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-left: 20px;
+  overflow: hidden;
+  border: 2px solid #ffffff; /* Oq rangli chegarani yaratish */
+  transition: border-color 0.3s;
+  padding: 0;
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-icon:hover {
+  border-color: #ffcc00; /* Hover paytida chegarani o'zgartirish */
+}
