@@ -54,7 +54,7 @@ body {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: .3s;
+  transition: 0.3s;
   font-weight: 600;
 }
 
@@ -130,7 +130,7 @@ body {
   padding: 8px;
   border-radius: 5px;
   font-weight: bold;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .topbar2 .nav-link:hover {
@@ -171,7 +171,7 @@ body {
   justify-content: space-between;
   padding: 0px 40px;
   height: 60px;
-  background-color: #FF0000;
+  background-color: #ff0000;
   color: #fff;
   border-bottom: 1px solid #cc0000;
   box-shadow: 0 2px 7px 3px rgba(0, 0, 0, 0.1);
@@ -215,7 +215,7 @@ body {
   padding: 8px;
   border-radius: 5px;
   font-weight: bold;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .topbar-youtube .nav-link:hover {
@@ -311,7 +311,12 @@ body {
 }
 
 .topbar-instagram .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.3); /* Tugma ustiga kelganda oq rang */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); /* Tugma ustiga kelganda oq rang */
   color: #000; /* Matn rangi o'zgaradi */
 }
 
@@ -337,7 +342,7 @@ body {
   box-shadow: 0 0 5px 2px rgba(192, 192, 192, 0.858);
 }
 
-/* Topbar - Telegram */ 
+/* Topbar - Telegram */
 .topbar-custom {
   background-color: #0088cc; /* Telegramning asosiy rangi */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -421,8 +426,9 @@ body {
   justify-content: space-between;
   padding: 0 40px;
   background-color: blue;
-  height: 70px; 
+  height: 70px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
 }
 .topbar6 .topbar-logo {
   height: 50px;
@@ -438,7 +444,7 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   text-transform: capitalize;
-  transition: .3s;  
+  transition: 0.3s;
 }
 .topbar6 .navbar a:hover {
   background-color: rgba(0, 0, 160, 0.507);
@@ -467,6 +473,7 @@ body {
   color: #fff;
   padding: 0 40px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
 }
 .topbar7 .topbar-logo {
   height: 40px;
@@ -482,7 +489,7 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   text-transform: capitalize;
-  transition: .3s;  
+  transition: 0.3s;
 }
 .topbar7 .navbar a:hover {
   background-color: #92000085;
@@ -493,7 +500,7 @@ body {
   color: #fff;
   font-size: 20px;
   margin-left: 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .topbar7 .topbar-icons a:hover {
   color: #000;
@@ -505,9 +512,10 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0px 40px;
-  background-color: #1DB954;
+  background-color: #1db954;
   height: 70px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
 }
 
 .topbar8 .logo {
@@ -525,7 +533,7 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   text-transform: capitalize;
-  transition: .3s;  
+  transition: 0.3s;
 }
 .topbar8 .nav-links a:hover {
   background-color: #0092338c;
@@ -564,6 +572,7 @@ body {
   background-color: #333333; /* Apple uslubidagi qora rang */
   height: 60px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
 }
 
 /* Logo Styling */
@@ -640,6 +649,7 @@ body {
   background-color: #141414; /* Netflix qora rang */
   height: 70px;
   margin-bottom: 30px;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
 }
 
 /* Logo Styling */
@@ -699,6 +709,75 @@ body {
 }
 
 .topbar10 .profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Kun.uz Style Topbar */
+.topbar11 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: #ffffff; /* Oq rang */
+  height: 60px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 2px 4px 3px rgba(0, 0, 0, 0.1); /* Pastga tushadigan soyani qo'shdik */
+  margin-bottom: 30px;
+}
+
+/* Logo Styling */
+.topbar11 .logo {
+  height: 40px;
+}
+
+.topbar11 .logo img {
+  height: 100%;
+}
+
+/* Navigation Links */
+.topbar11 .nav-links a {
+  text-decoration: none;
+  color: #333333; /* Qora rang */
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.topbar11 .nav-links a:hover {
+  color: #007bff; /* Ko'k rang */
+}
+
+/* Actions (Language and Profile) */
+.topbar11 .actions {
+  display: flex;
+  align-items: center;
+}
+
+.topbar11 .actions .language a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 14px;
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.topbar11 .actions .language a:hover {
+  color: #007bff;
+}
+
+.topbar11 .actions .profile-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.topbar11 .actions .profile-icon img {
   width: 100%;
   height: 100%;
   object-fit: cover;
