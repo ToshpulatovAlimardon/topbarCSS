@@ -435,8 +435,14 @@ body {
 .topbar6 .navbar a {
   text-decoration: none;
   color: #fff;
-  margin: 0 10px;
-  text-transform: capitalize;  
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: .3s;  
+}
+.topbar6 .navbar a:hover {
+  background-color: rgba(0, 0, 160, 0.507);
+  padding: 10px 20px;
 }
 
 .topbar6 .topbar-language select {
@@ -448,4 +454,46 @@ body {
   box-shadow: 0 0 10px 5px rgb(98, 98, 255);
   color: #fff;
   margin-right: 30px;
+  cursor: pointer;
+}
+
+/* Topbar 7 */
+.topbar7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #cc0000;
+  color: #fff;
+  padding: 0 40px;
+}
+.topbar7 .topbar-logo {
+  height: 40px;
+}
+.topbar-logo img {
+  height: 100%;
+  filter: brightness(0);
+}
+
+.topbar7 .navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: .3s;  
+}
+.topbar7 .navbar a:hover {
+  background-color: #92000085;
+  padding: 10px 20px;
+}
+
+.topbar7 .topbar-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  transition: .3s;
+}
+.topbar7 .topbar-icons a:hover {
+  color: #000;
 }
