@@ -466,6 +466,7 @@ body {
   background-color: #cc0000;
   color: #fff;
   padding: 0 40px;
+  margin-bottom: 30px;
 }
 .topbar7 .topbar-logo {
   height: 40px;
@@ -496,4 +497,59 @@ body {
 }
 .topbar7 .topbar-icons a:hover {
   color: #000;
+}
+
+/* Topbar 8 */
+.topbar8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  background-color: #1DB954;
+  height: 70px;
+}
+
+.topbar8 .logo {
+  height: 45px;
+  font-weight: bold;
+}
+.topbar8 .logo img {
+  height: 100%;
+  filter: brightness(0%);
+}
+
+.topbar8 .nav-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: .3s;  
+}
+.topbar8 .nav-links a:hover {
+  background-color: #0092338c;
+  padding: 10px 20px;
+}
+
+.topbar8 .search-bar {
+  margin: 0 20px;
+}
+
+.topbar8 .search-bar input {
+  width: 300px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+.topbar8 .profile-icon {
+  width: 45px;
+  height: 45px;
+}
+.topbar8 .profile-icon img {
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
 }
