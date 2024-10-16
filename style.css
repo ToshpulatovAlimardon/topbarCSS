@@ -507,6 +507,7 @@ body {
   padding: 0px 40px;
   background-color: #1DB954;
   height: 70px;
+  margin-bottom: 30px;
 }
 
 .topbar8 .logo {
@@ -549,6 +550,157 @@ body {
   height: 45px;
 }
 .topbar8 .profile-icon img {
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Apple-style Topbar */
+.topbar9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  background-color: #333333; /* Apple uslubidagi qora rang */
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+/* Logo Styling */
+.topbar9 .logo {
+  height: 40px;
+  font-weight: bold;
+}
+
+.topbar9 .logo img {
+  height: 100%;
+  filter: brightness(100%); /* Logotip oq bo'lsin */
+}
+
+/* Navigation Links */
+.topbar9 .nav-links a {
+  text-decoration: none;
+  color: #f5f5f7; /* Apple uslubidagi oq rang */
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: background-color 0.3s ease;
+}
+
+.topbar9 .nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Yorqin kulrang fon */
+}
+
+/* Search Bar */
+.topbar9 .search-cart {
+  margin: 0 20px;
+}
+
+.topbar9 .search-cart input {
+  width: 300px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  background-color: #5e5e5e; /* Kulgina fon rangi */
+  color: #f5f5f7;
+  transition: background-color 0.3s ease;
+}
+
+.topbar9 .search-cart input::placeholder {
+  color: #b3b3b3; /* Apple uslubidagi kulrang */
+}
+
+.topbar9 .search-cart input:hover {
+  background-color: #5c5c5cbb;
+}
+
+/* Profile Icon */
+.topbar9 .profile-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.topbar9 .profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: brightness(100%);
+}
+
+/* Netflix-style Topbar */
+.topbar10 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  background-color: #141414; /* Netflix qora rang */
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+/* Logo Styling */
+.topbar10 .logo {
+  height: 45px;
+}
+
+.topbar10 .logo img {
+  height: 100%;
+}
+
+/* Navigation Links */
+.topbar10 .nav-links a {
+  text-decoration: none;
+  color: #ffffff; /* Netflix oq rang */
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: color 0.3s ease;
+}
+
+.topbar10 .nav-links a:hover {
+  color: #e50914; /* Netflix qizil rang */
+  background-color: #5f5f5f89;
+}
+
+/* Search Bar */
+.topbar10 .search-bar {
+  margin: 0 20px;
+}
+
+.topbar10 .search-bar input {
+  width: 250px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  background-color: #333;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+.topbar10 .search-bar input::placeholder {
+  color: #b3b3b3; /* Netflix kulrang */
+}
+
+.topbar10 .search-bar input:hover {
+  background-color: #444;
+}
+
+/* Profile Icon */
+.topbar10 .profile-icon {
+  width: 45px;
+  height: 45px;
+}
+
+.topbar10 .profile-icon img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
